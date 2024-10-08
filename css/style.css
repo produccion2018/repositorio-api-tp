@@ -28,3 +28,26 @@ h1{
     transform: scale(1.1);
     box-shadow: 0 0 20px #00000066;
 }
+
+
+.flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.video-container {
+    flex: 0 0 auto; /* Mantiene el tamaño del video */
+    max-width: 560px; /* Ancho máximo del video */
+}
+
+.video-container iframe {
+    width: 100%; /* Hace que el video sea responsivo */
+    height: auto; /* Mantiene la proporción del video */
+}
